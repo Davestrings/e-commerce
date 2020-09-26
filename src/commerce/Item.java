@@ -6,7 +6,7 @@ public class Item {
     private String price;
     private ItemSaleStatus saleStatus;
     private ItemDeliveryStatus deliveryStatus;
-    private Brand brand;
+    private ItemDetails itemDetails;
     private byte itemRating;
     private  static short Quantity;
 }

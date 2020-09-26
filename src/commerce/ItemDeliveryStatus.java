@@ -1,5 +1,5 @@
 package commerce;
 
 public enum ItemDeliveryStatus {
-    DELIVERED, IN_TRANSIT
+    DELIVERED, IN_TRANSIT, RETURNED
 }

@@ -1,11 +1,13 @@
 package commerce;
 
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
 public class EStore {
     private String storeName;
     private Set<User> registeredUsers = new HashSet<>();
+    private Collection<Category> categories = new HashSet<>();
 
     public EStore(String storeName, Set<User> registeredUsers) {
         this.storeName = storeName;
